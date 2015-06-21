@@ -1,0 +1,6 @@
+# HTTP Cookie File for domains related to net63.net.
+# Downloaded with cookies.txt Chrome Extension (https://chrome.google.com/webstore/detail/njabckikapfpffapmjgojcnbfjonfjfg)
+# Example:  wget -x --load-cookies cookies.txt http://whtsnext.net63.net/apis/login_fb.php
+#
+.whtsnext.net63.net	TRUE	/	TRUE	2929575798	_js_datr	YLBtVVU79ZHOT-sWPhZSKpaH
+.whtsnext.net63.net	TRUE	/	TRUE	0	reg_ext_ref	
