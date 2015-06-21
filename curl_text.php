@@ -95,7 +95,9 @@ login($site."Login1.action","username=".$username."&password=".$password."");
 
  $token=$_SERVER['id_value'];
 	if(strlen($token)<37){
-	echo "Error is login";
+	$response['message']="Error while logging in";
+	$response['is_sent']=false;
+echo json_encode($response); 
 	}
 	else {
 	
@@ -115,6 +117,6 @@ else
 {
 $response['is_sent']=false;
 echo json_encode($response);
-	header('Location: send_msg.php');
+	header('Location: /send_msg.php');
 }
  ?>
